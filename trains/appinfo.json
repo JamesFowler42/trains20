@@ -1,0 +1,40 @@
+{
+  "uuid": "74460383-8a0f-4bb6-971f-9837c2ed4441",
+  "shortName": "Trains",
+  "longName": "Trains",
+  "capabilities": [ "configurable" ],
+  "companyName": "James Fowler",
+  "versionCode": 2,
+  "versionLabel": "2.0.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "time1": 1,
+    "dest1": 2,
+    "plat1": 3,
+    "time2": 4,
+    "dest2": 5,
+    "plat2": 6,
+    "time3": 7,
+    "dest3": 8,
+    "plat3": 9,
+    "from": 10,
+    "to": 11
+  },
+  "resources": {
+    "media": [
+      {
+        "type": "png",
+        "name": "IMAGE_TRAIN",
+        "file": "img/train-full.png"
+      },
+      {
+        "menuIcon": "true",
+        "type": "png",
+        "name": "ICON_TRAIN",
+        "file": "img/train-icon.png"
+      }
+    ]
+  }
+}
